@@ -91,7 +91,7 @@ src/
 
 ## 🔗 Demo
 
-[Canlı Demo](https://desserts-app-demo.netlify.app) - Uygulamayı canlı olarak görüntüleyin
+[Canlı Demo](https://desserts-app-snowy.vercel.app/) - Uygulamayı canlı olarak görüntüleyin
 
 ## 👨‍💻 Geliştirici
 
