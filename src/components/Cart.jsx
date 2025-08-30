@@ -19,7 +19,7 @@ function Cart({ cartItems, onUpdateQuantity, onRemoveItem, onConfirmOrder }) {
       {cartItems.length === 0 ? (
         <div className="empty-cart">
           <img 
-            src="/src/images/illustration-empty-cart.svg" 
+            src="/images/illustration-empty-cart.svg" 
             alt="Empty cart" 
             className="empty-cart-image"
           />
@@ -42,7 +42,7 @@ function Cart({ cartItems, onUpdateQuantity, onRemoveItem, onConfirmOrder }) {
                   className="remove-item-btn"
                   onClick={() => handleRemoveItem(item.id)}
                 >
-                  <img src="/src/images/icon-remove-item.svg" alt="Remove item" />
+                  <img src="/images/icon-remove-item.svg" alt="Remove item" />
                 </button>
               </div>
             ))}
@@ -54,7 +54,7 @@ function Cart({ cartItems, onUpdateQuantity, onRemoveItem, onConfirmOrder }) {
           </div>
           
           <div className="carbon-neutral">
-            <img src="/src/images/icon-carbon-neutral.svg" alt="Carbon neutral" />
+            <img src="/images/icon-carbon-neutral.svg" alt="Carbon neutral" />
             <span>This is a <strong>carbon-neutral</strong> delivery</span>
           </div>
           

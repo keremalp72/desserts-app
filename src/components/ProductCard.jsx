@@ -35,17 +35,17 @@ function ProductCard({ product, onAddToCart, cartItems }) {
         
         {!isInCart ? (
           <button className="add-to-cart-btn" onClick={handleAddToCart}>
-            <img src="/src/images/icon-add-to-cart.svg" alt="Add to cart" />
+            <img src="/images/icon-add-to-cart.svg" alt="Add to cart" />
             Add to Cart
           </button>
         ) : (
           <div className="quantity-control">
             <button className="quantity-btn" onClick={handleDecrement}>
-              <img src="/src/images/icon-decrement-quantity.svg" alt="Decrease quantity" />
+              <img src="/images/icon-decrement-quantity.svg" alt="Decrease quantity" />
             </button>
             <span className="quantity-number">{quantity}</span>
             <button className="quantity-btn" onClick={handleIncrement}>
-              <img src="/src/images/icon-increment-quantity.svg" alt="Increase quantity" />
+              <img src="/images/icon-increment-quantity.svg" alt="Increase quantity" />
             </button>
           </div>
         )}

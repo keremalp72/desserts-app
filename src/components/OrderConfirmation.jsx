@@ -14,7 +14,7 @@ function OrderConfirmation({ cartItems, onNewOrder }) {
     <div className="modal-overlay" onClick={handleOverlayClick}>
       <div className="order-confirmation-modal" onClick={(e) => e.stopPropagation()}>
         <div className="confirmation-icon">
-          <img src="/src/images/icon-order-confirmed.svg" alt="Order confirmed" />
+          <img src="/images/icon-order-confirmed.svg" alt="Order confirmed" />
         </div>
         
         <h2 className="confirmation-title">Order Confirmed</h2>
